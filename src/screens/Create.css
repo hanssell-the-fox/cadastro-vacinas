@@ -1,0 +1,53 @@
+.createRegistry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form div {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0.2rem 0;
+}
+
+form label {
+  min-width: 10rem;
+  padding-top: 0.8rem;
+  margin-right: 0.5rem;
+  text-align: right;
+}
+
+form input {
+  padding: 0.3rem;
+  min-width: 20rem;
+  outline: none;
+}
+
+#actions {
+  margin-top: 1rem;
+}
+
+#actions button {
+  margin: 0.3rem;
+  min-width: 10rem;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: medium;
+  color: #666;
+}
+
+#actions button:first-child {
+  background-color: khaki;
+}

@@ -1,0 +1,32 @@
+.goBack {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 4rem;
+  padding: 0 0.3%;
+}
+
+.goBack:hover {
+  animation: bounce 1s infinite linear;
+}
+
+.goBack img {
+  width: inherit;
+  height: 4rem;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0rem);
+  }
+
+  50% {
+    transform: translateX(0.3rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

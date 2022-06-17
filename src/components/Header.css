@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  margin: 5% 0;
+}
+
+header img {
+  width: 21%;
+  margin: 0 3%;
+}
+
+header div {
+  color: var(--text-color);
+  flex-direction: column;
+  flex-grow: 1;
+  white-space: nowrap;
+  text-align: right;
+}
+
+header h3 {
+  text-align: right;
+}
+
+@media all and (max-width: 1024px) {
+  header {
+    font-size: x-small;
+  }
+}
+
+@media all and (max-width: 959px) {
+  header {
+    font-size: small;
+  }
+}
+
+@media all and (max-width: 540px) {
+  header {
+    margin: 7% 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+
+  header img {
+    width: 50%;
+  }
+
+  header div {
+    margin: 15% 0;
+    font-size: x-small;
+  }
+}

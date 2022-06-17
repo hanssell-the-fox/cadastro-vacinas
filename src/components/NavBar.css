@@ -1,0 +1,13 @@
+nav ul {
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+  padding: 0 10%;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    width: auto;
+    padding: 0;
+  }
+}
